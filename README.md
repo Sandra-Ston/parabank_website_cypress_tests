@@ -1,15 +1,24 @@
 # ParaBank Website Cypress Tests
 
-This repository contains Cypress end-to-end tests for the ParaBank website (https://parabank.parasoft.com/parabank/index.htm).
+This repository contains **Cypress** end-to-end tests for the [ParaBank website](https://parabank.parasoft.com/parabank/index.htm), a demo banking application designed for testing purposes.
 
 
 ## Description
 
-This project uses Cypress, a powerful end-to-end testing framework, to automate tests for the ParaBank demo website. The tests cover various functionalities of the website, ensuring its reliability and proper functioning.
+This project utilizes [Cypress](https://www.cypress.io/), a modern end-to-end testing framework, to automate functional tests for the ParaBank website. The test suite covers essential banking features, including:
+
+    ✅ User authentication (login/logout)
+    ✅ Account creation & management
+    ✅ Funds transfers & bill payments
+    ✅ General website functionality testing
+
+The goal is to ensure the reliability, stability, and proper functionality of the ParaBank website.
 
 ## Getting Started
 
 ### Prerequisites
+
+Ensure you have the following installed before running the tests:
 
 *   [Node.js](https://nodejs.org/) (version 14 or higher)
 *   [npm](https://www.npmjs.com/) (Node Package Manager) or [Yarn](https://yarnpkg.com/)
@@ -32,13 +41,14 @@ This project uses Cypress, a powerful end-to-end testing framework, to automate 
 
 ### Configuration
 
-No specific configuration is needed. The `cypress.config.js` file contains the basic Cypress configuration.
+No additional configuration is required. The default settings in `cypress.config.js` define the necessary test execution parameters. You can modify this file to adjust browser settings, environment variables, or reporting options as needed.
 
 ### Running the Tests
 
 You can run the tests in two ways:
 
-1.  **Using the Cypress Test Runner (GUI):**
+1.  **Run tests using the Cypress Test Runner (GUI)**
+   This opens Cypress in interactive mode, allowing you to select and run tests visually.
 
     ```
     npm run cypress:open
@@ -46,17 +56,14 @@ You can run the tests in two ways:
     yarn cypress:open
     ```
 
-    This command opens the Cypress Test Runner, allowing you to interactively run the tests and view the results.
-
-2.  **Running the tests in headless mode (command line):**
+2.  **Run tests in headless mode (command line)**
+   This runs the tests without opening the GUI, making it ideal for automation and CI/CD pipelines.
 
     ```
     npm run cypress:run
     # or
     yarn cypress:run
     ```
-
-    This command runs the tests in the command line without the GUI. It's useful for CI/CD environments.
 
 ## Project Structure
 
@@ -82,4 +89,4 @@ This project is licensed under the ISC License. See the [LICENSE](License) file 
 
 ## Author
 
-[Sandra-Ston](https://github.com/Sandra-Ston)
+Developed and maintained by [Sandra-Ston](https://github.com/Sandra-Ston)
