@@ -2,9 +2,6 @@
 
 This repository contains Cypress end-to-end tests for the ParaBank website (https://parabank.parasoft.com/parabank/index.htm).
 
-# ParaBank Website Cypress Tests
-
-This repository contains Cypress end-to-end tests for the ParaBank website.
 
 ## Description
 
